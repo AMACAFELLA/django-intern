@@ -15,9 +15,9 @@ Including another URLconf
 """
 from django.urls import path
 
-from angusmacapellascrumy import views
+from angusmacapellascrumy import views 
 
 urlpatterns = [
-    path('', views.index)
+    path('', views.get_grading_parameters),
 
 ]
